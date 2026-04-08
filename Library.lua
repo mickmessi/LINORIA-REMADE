@@ -145,7 +145,7 @@ end;
 
 function Library:CreateLabel(Properties, IsHud)
     local _Instance = Library:Create('TextLabel', {
-        BackgroundTransparency = 1;
+        BackgroundTransparency = 0;
         Font = Library.Font;
         TextColor3 = Library.FontColor;
         TextSize = 16;
